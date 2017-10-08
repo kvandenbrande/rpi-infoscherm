@@ -1,4 +1,6 @@
 # rpi-infoscherm
+raspberry pi 7 inch scherm 800x480
+
 Weer
 Waterstand
 Strandwater temp

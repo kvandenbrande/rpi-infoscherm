@@ -37,7 +37,7 @@ WAITTIME = 30  # default time to wait between images (in seconds)
 THICKNESS = 10
 
 # media files
-LOCALEPATH = '/home/pi/infoscherm/img/'
+LOCALEPATH = '/home/pi/rpi-infoscherm/img/'
 
 # set up the window, max screensize, fullscreen no frames
 

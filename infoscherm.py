@@ -33,6 +33,7 @@ TEXT = pygame.font.SysFont('roboto', 35, bold=True)
 TITLE = pygame.font.SysFont('roboto', 50, bold=True)
 TITLE1 = pygame.font.SysFont('roboto', 75, bold=True)
 WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
 WAITTIME = 30  # default time to wait between images (in seconds)
 THICKNESS = 10
 
@@ -98,7 +99,7 @@ while True:
     
     # tekenen van welkom scherm ipv afbeelding
     
-    screen.fill(0, 0, 0)
+    screen.fill(BLACK)
 
 ##    pygame.draw.line(screen, WHITE, (L_BORDER_AX - THICKNESS / 2 + 1,
 ##                     L_BORDER_AY), (L_BORDER_BX, L_BORDER_AY),
